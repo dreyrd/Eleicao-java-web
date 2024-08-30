@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Exer</title>
+</head>
+<body>
+    
+    <nav id="navegacao">
+
+        <section class="fechar-menu">
+            
+            <img src="./img/close.png" alt="fechar menu" id="fechar" onclick="fecharMenu()">
+            
+        </section>
+
+    </nav>
+
+
+    <header class="cabecalho">
+
+        <img src="./img/hamburguer.png" alt="menu hamburguer" class="menu" onclick="abrirMenu()">
+
+    </header>
+
+    <main class="questinarios">
+
+        <form action="form.jsp" method="POST">
+            <h3>Seu nome</h3>
+            <input type="text" name="nome">
+            <br>
+            <h3>Sua idade</h3>
+            <input type="text" name="idade">
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+
+    </main>
+
+    <script src="./JS/script.js"></script>
+
+</body>
+</html>
